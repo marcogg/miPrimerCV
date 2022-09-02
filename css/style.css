@@ -1,0 +1,76 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(111, 112, 177);
+}
+
+body {
+    background-image: url('../img/backgroundCV.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-size: 44px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 30px;
+    padding: 3%;
+    box-shadow: 3px 4px 30px rgba(30, 50, 102, 0.35);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 3px solid white;
+}
+
+.card-info {
+    padding: 30px;
+    width: 60%;
+}
+
+.img-container {
+    width: 40%;
+}
+
+.name {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.skills {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+li {
+    list-style-type: disc;
+}
